@@ -3,6 +3,8 @@
 import 'dart:math';
 
 import 'package:future_app/geolocation.dart';
+import 'package:future_app/navigation_dialog.dart';
+import 'package:future_app/navigation_first.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
 import 'package:async/async.dart';
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LocationScreen(),
+      home: NavigationDialog(),
     );
   }
 }
